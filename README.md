@@ -3,7 +3,7 @@
 
 For a linear regression model, it generates following diagnostic plots:
 
-        a.*residual plot*
+        a.residual plot
         b. qq plot of residuals
         c. scale location plot
         d. leverage
@@ -18,3 +18,7 @@ For a linear regression model, it generates following diagnostic plots:
         Raises:
             TypeError: if instance does not belong to above object
         
+
+This class is a Python implementation of plot.lm() function from R.
+
+For some details check: https://medium.com/@biman.pph/linear-regression-diagnostic-plots-using-python-a-comprehensive-guide-178aaa24dc13
